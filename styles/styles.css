@@ -349,7 +349,7 @@ main .section.highlight {
 /* section permits */
 .section.black-section {
   background-color: var(--black-color);
-  padding: 21px;
+  padding: 21px 100px 21px 100px;
 }
 
 .section.black-section h1,

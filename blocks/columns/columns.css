@@ -17,6 +17,9 @@
 
 .columns > div > .columns-img-col img {
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (width >= 900px) {
@@ -29,5 +32,16 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+
+  /* Image always on left */
+  .columns > div > .columns-img-col {
+    order: 0;
+  }
+
+  /* Text always on right */
+  .columns > div > div:not(.columns-img-col) {
+    order: 1;
+    padding: 0 24px;
   }
 }
