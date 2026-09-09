@@ -19,7 +19,7 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
   --orange-color: #ff6e00;
-  --black-color: #000000;
+  --black-color: #000;
   --baige-color: #f5f5dc;
   
   
@@ -302,7 +302,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 0px 0;
+  margin: 0;
 }
 
 main > .section > div {
@@ -349,7 +349,7 @@ main .section.highlight {
 /* section permits */
 .section.black-section {
   background-color: var(--black-color);
-  padding: 21px 100px 21px 100px;
+  padding: 21px 100px;
 }
 
 .section.black-section h1,
@@ -362,7 +362,7 @@ main .section.highlight {
   justify-content: center;
 }
 
-/*section regional*/
+/* section regional */
 .section.baige-section {
   background-color: var(--baige-color);
   padding: 21px;
@@ -376,5 +376,19 @@ main .section.highlight {
   color: black;
   display: flex;
   justify-content: center;
+}
+
+/* section circuit */
+
+.section.w-circuit {
+  background-color: var(--baige-color);
+  color: black;
+}
+
+.section.w-circuit h1,
+.section.w-circuit h2,
+.section.w-circuit h3,
+.section.w-circuit p {
+  color: black;
 }
 
