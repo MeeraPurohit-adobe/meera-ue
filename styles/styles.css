@@ -332,7 +332,7 @@ main .section.highlight {
 /* section region */
 .section.orange-section {
   background-color: var(--orange-color);
-  padding: 21px;
+  padding: 21px 100px;
 }
 
 .section.orange-section h1,
@@ -365,7 +365,6 @@ main .section.highlight {
 /* section regional */
 .section.baige-section {
   background-color: var(--baige-color);
-  padding: 21px;
 }
 
 .section.baige-section h1,
@@ -382,6 +381,7 @@ main .section.highlight {
 
 .section.w-circuit {
   background-color: var(--baige-color);
+  padding: 21px 100px;
 }
 
 .section.w-circuit h1,
@@ -389,5 +389,12 @@ main .section.highlight {
 .section.w-circuit h3,
 .section.w-circuit p {
   color: black;
+  display: flex;
+  justify-content: left;
 }
+
+.section.w-circuit img {
+  border-radius: 35px;
+}
+
 
