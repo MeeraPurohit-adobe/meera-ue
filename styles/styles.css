@@ -302,7 +302,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  margin: 0px 0;
 }
 
 main > .section > div {
@@ -332,6 +332,7 @@ main .section.highlight {
 /* section region */
 .section.orange-section {
   background-color: var(--orange-color);
+  padding: 21px;
 }
 
 .section.orange-section h1,
@@ -340,11 +341,15 @@ main .section.highlight {
 .section.orange-section p,
 .section.orange-section strong {
   color: black;
+  display: flex;
+  justify-content: center;
 }
+
 
 /* section permits */
 .section.black-section {
   background-color: var(--black-color);
+  padding: 21px;
 }
 
 .section.black-section h1,
@@ -353,11 +358,14 @@ main .section.highlight {
 .section.black-section p,
 .section.black-section strong {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /*section regional*/
 .section.baige-section {
   background-color: var(--baige-color);
+  padding: 21px;
 }
 
 .section.baige-section h1,
@@ -366,4 +374,7 @@ main .section.highlight {
 .section.baige-section p,
 .section.baige-section strong {
   color: black;
+  display: flex;
+  justify-content: center;
 }
+
