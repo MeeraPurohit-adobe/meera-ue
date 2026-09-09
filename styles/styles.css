@@ -412,28 +412,26 @@ main .section.highlight {
 
 /* Mobile version of above classes */
 
-@media (width >= 900px) {
-  .section.america-cards {
-      padding: 21px 33px;
-  }
-
-  .section.orange-section {
-    padding: 21px 33px;
-  }
-
-  .section.black-section {
-    padding: 21px 33px;
-  }
-
-  .section.w-circuit {
-    padding: 21px 33px;
-  }
-
-  .section.europe-cards {
-    padding: 21px 33px;
-  }
-
+/* Mobile only (< 600px) */
+@media (width < 600px) {
+  .section.america-cards,
+  .section.orange-section,
+  .section.black-section,
+  .section.w-circuit,
+  .section.europe-cards,
   .section.baige-section {
-    padding: 21px 33px;
+    padding: 16px;
+  }
+}
+
+/* Tablet only (600px - 899px) */
+@media (width >= 600px) and (width < 900px) {
+  .section.america-cards,
+  .section.orange-section,
+  .section.black-section,
+  .section.w-circuit,
+  .section.europe-cards,
+  .section.baige-section {
+    padding: 21px 24px;
   }
 }
