@@ -207,19 +207,19 @@
         "value": ""
       },
       {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "TextBold",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "TextSmall",
-          "valueType": "string"
-        }
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "TextBold",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "TextSmall",
+        "valueType": "string"
+      }
     ]
   }
 ]
