@@ -152,6 +152,10 @@
           {
             "name": "w-circuit",
             "value": "w-circuit"
+          },
+          {
+            "name": "europe-cards",
+            "value": "europe-cards"
           }
         ]
       }

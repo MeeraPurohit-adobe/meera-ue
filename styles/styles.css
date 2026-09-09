@@ -397,4 +397,9 @@ main .section.highlight {
   border-radius: 35px;
 }
 
+/* section europe-cards */
 
+.section.europe-cards {
+  background-color: var(--baige-color);
+  padding: 21px 100px;
+}
