@@ -378,3 +378,17 @@ main .section.highlight {
   justify-content: center;
 }
 
+/* section circuit */
+
+.section.w-circuit {
+  background-color: var(--baige-color);
+  color: black;
+}
+
+.section.w-circuit h1,
+.section.w-circuit h2,
+.section.w-circuit h3,
+.section.w-circuit p {
+  color: black;
+}
+

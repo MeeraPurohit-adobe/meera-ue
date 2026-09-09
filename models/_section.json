@@ -45,6 +45,10 @@
             {
               "name": "baige",
               "value": "baige-section"
+            },
+            {
+              "name": "W Circuit",
+              "value": "w-circuit"
             }
           ]
         }
