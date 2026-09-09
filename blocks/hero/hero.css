@@ -30,6 +30,35 @@
   height: 100%;
 }
 
+/* TextSmall in white */
+.hero [data-aue-prop="textSmall"],
+.hero p {
+  color: white;
+}
+
+/* Buttons */
+.hero .button-one,
+.hero .button-two {
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 12px;
+  margin-top: 16px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.hero .button-one:hover,
+.hero .button-two:hover {
+  background-color: transparent;
+  color: white;
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
