@@ -156,6 +156,10 @@
           {
             "name": "europe-cards",
             "value": "europe-cards"
+          },
+          {
+            "name": "america-cards",
+            "value": "america-cards"
           }
         ]
       }
