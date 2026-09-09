@@ -16,6 +16,10 @@
   color: var(--background-color);
 }
 
+.hero p {
+  color: white;
+}
+
 .hero picture {
   position: absolute;
   z-index: -1;
@@ -30,49 +34,49 @@
   height: 100%;
 }
 
-/* TextSmall in white */
-.hero [data-aue-prop="textSmall"],
-.hero p {
-  color: white;
+/* Button wrapper */
+.hero .hero-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
 }
 
-/* Default button */
-.hero a.button {
+/* Default & Primary button */
+.hero .hero-buttons a,
+.hero .hero-buttons a.primary {
   background-color: white;
   color: black;
   padding: 10px 24px;
   border-radius: 4px;
   text-decoration: none;
-  display: inline-block;
   font-weight: 600;
-  margin-right: 12px;
-  margin-top: 16px;
   border: 2px solid white;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* Primary button */
-.hero a.button.primary {
-  background-color: white;
-  color: black;
-}
-
 /* Secondary button */
-.hero a.button.secondary {
+.hero .hero-buttons a.secondary {
   background-color: transparent;
   color: white;
   border: 2px solid white;
 }
 
 /* Hover states */
-.hero a.button:hover,
-.hero a.button.primary:hover {
+.hero .hero-buttons a:hover,
+.hero .hero-buttons a.primary:hover {
   background-color: transparent;
   color: white;
 }
 
-.hero a.button.secondary:hover {
+.hero .hero-buttons a.secondary:hover {
   background-color: white;
   color: black;
+}
+
+@media (width >= 900px) {
+  .hero {
+    padding: 40px 32px;
+  }
 }
