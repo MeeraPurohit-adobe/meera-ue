@@ -38,11 +38,25 @@
           "component": "richtext",
           "name": "text",
           "value": "",
-          "label": "Text",
+          "label": "TextBold",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "TextSmall",
           "valueType": "string"
         }
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "hero",
+      "components": [
+        "button"
+      ]
+    }
+  ]
 }
