@@ -8,8 +8,8 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  border-radius: 35px 35px 35px 35px;
+  background-color: var(--background-color);  
 }
 
 .cards .cards-card-body {
@@ -39,4 +39,16 @@
   .cards > ul {
     grid-template-columns: 1fr;
   }
+}
+
+.cards .card-tag {
+  display: inline-block;
+  background-color: var(--orange-color);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
 }
