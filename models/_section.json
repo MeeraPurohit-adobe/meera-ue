@@ -33,6 +33,18 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "orange",
+              "value": "orange-section"
+            },
+            {
+              "name": "black",
+              "value": "black-section"
+            },
+            {
+              "name": "baige",
+              "value": "baige-section"
             }
           ]
         }

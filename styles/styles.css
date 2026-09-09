@@ -18,6 +18,11 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --orange-color: #ff6e00;
+  --black-color: #000000;
+  --baige-color: #f5f5dc;
+  
+  
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -322,4 +327,43 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* section region */
+.section.orange-section {
+  background-color: var(--orange-color);
+}
+
+.section.orange-section h1,
+.section.orange-section h2,
+.section.orange-section h3,
+.section.orange-section p,
+.section.orange-section strong {
+  color: black;
+}
+
+/* section permits */
+.section.black-section {
+  background-color: var(--black-color);
+}
+
+.section.black-section h1,
+.section.black-section h2,
+.section.black-section h3,
+.section.black-section p,
+.section.black-section strong {
+  color: white;
+}
+
+/*section regional*/
+.section.baige-section {
+  background-color: var(--baige-color);
+}
+
+.section.baige-section h1,
+.section.baige-section h2,
+.section.baige-section h3,
+.section.baige-section p,
+.section.baige-section strong {
+  color: black;
 }
