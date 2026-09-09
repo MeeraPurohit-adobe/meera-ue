@@ -148,6 +148,10 @@
           {
             "name": "baige",
             "value": "baige-section"
+          },
+          {
+            "name": "w-circuit",
+            "value": "w-circuit"
           }
         ]
       }
