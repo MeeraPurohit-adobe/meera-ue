@@ -21,6 +21,7 @@
   --orange-color: #ff6e00;
   --black-color: #000;
   --baige-color: #f5f5dc;
+  --grey-color: #3f3f3f;
   
   
 
@@ -365,6 +366,7 @@ main .section.highlight {
 /* section regional */
 .section.baige-section {
   background-color: var(--baige-color);
+  padding: 21px 100px;
 }
 
 .section.baige-section h1,
@@ -408,6 +410,27 @@ main .section.highlight {
 
 .section.america-cards {
   padding: 21px 100px;
+}
+
+/* section planning */
+
+.section.planning {
+  background-color: var(--black-color);
+  padding: 21px 100px;
+}
+
+.section.planning h1,
+.section.planning h2,
+.section.planning h3,
+.section.planning p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.section.planning.cards {
+  background-color: var(--grey-color);
+  color:white;
 }
 
 /* Mobile version of above classes */
