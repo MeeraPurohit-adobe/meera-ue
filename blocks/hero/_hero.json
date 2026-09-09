@@ -47,34 +47,6 @@
           "value": "",
           "label": "TextSmall",
           "valueType": "string"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "buttonOneLabel",
-          "label": "Button One Label",
-          "value": ""
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "buttonOneLink",
-          "label": "Button One Link",
-          "value": ""
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "buttonTwoLabel",
-          "label": "Button Two Label",
-          "value": ""
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "buttonTwoLink",
-          "label": "Button Two Link",
-          "value": ""
         }
       ]
     }

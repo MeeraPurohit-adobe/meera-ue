@@ -36,9 +36,8 @@
   color: white;
 }
 
-/* Buttons */
-.hero .button-one,
-.hero .button-two {
+/* Default button */
+.hero a.button {
   background-color: white;
   color: black;
   padding: 10px 24px;
@@ -53,14 +52,27 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.hero .button-one:hover,
-.hero .button-two:hover {
+/* Primary button */
+.hero a.button.primary {
+  background-color: white;
+  color: black;
+}
+
+/* Secondary button */
+.hero a.button.secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Hover states */
+.hero a.button:hover,
+.hero a.button.primary:hover {
   background-color: transparent;
   color: white;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
-  }
+.hero a.button.secondary:hover {
+  background-color: white;
+  color: black;
 }
