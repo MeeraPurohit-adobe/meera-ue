@@ -447,12 +447,12 @@ main .section.highlight {
   color: var(--light-color);
 }
 
-.section.w-circuit p.button-wrapper {
+.section.baige-section p.button-wrapper {
   display: inline-block;
   margin-right: 16px;
 }
 
-.section.w-circuit .default-content-wrapper {
+.section.baige-section .default-content-wrapper {
   text-align: center;
 }
 
@@ -465,7 +465,8 @@ main .section.highlight {
   .section.black-section,
   .section.w-circuit,
   .section.europe-cards,
-  .section.baige-section {
+  .section.baige-section,
+   .section.planning{
     padding: 16px;
   }
 }
@@ -477,7 +478,8 @@ main .section.highlight {
   .section.black-section,
   .section.w-circuit,
   .section.europe-cards,
-  .section.baige-section {
+  .section.baige-section,
+  .section.planning {
     padding: 21px 24px;
   }
 }
