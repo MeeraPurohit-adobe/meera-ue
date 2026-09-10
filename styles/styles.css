@@ -422,6 +422,16 @@ main .section.highlight {
   border-bottom: 6px solid var(--orange-color);
 }
 
+.section.planning p.button-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.section.planning p.button-wrapper .button {
+  background-color: var(--light-color);
+  color: var(--black-color);
+}
+
 .section.planning h1,
 .section.planning h2,
 .section.planning h3,
@@ -440,11 +450,11 @@ main .section.highlight {
   border: none;
 }
 
-.section.w-circuit .columns-wrapper p.button-wrapper {
+.section.w-circuit .columns-wrapper .button {
   box-shadow: 3px 3px 0 var(--orange-color);
   border-color: var(--text-color);
-  background-color: var(--light-color);
-  color: var(--black-color);
+  background-color: black;
+  color: var(--light-color);
 }
 
 .section.baige-section p.button-wrapper {
