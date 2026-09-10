@@ -1,12 +1,18 @@
 export default function decorate(block) {
-  const rows = [...block.children];
+  // Find tag field
+  const tag = block.querySelector('[data-aue-prop="tag"]');
+  if (tag && tag.textContent.trim()) {
+    const span = document.createElement('span');
+    span.classList.add('hero-tag');
+    span.textContent = tag.textContent.trim();
+    tag.closest('div').replaceWith(span);
+  }
 
   // Find fields by data-aue-prop
   const buttonOneLabel = block.querySelector('[data-aue-prop="buttonOneLable"]');
   const buttonTwoLabel = block.querySelector('[data-aue-prop="buttonTwoLabel"]');
 
-  // Find link rows — they are the sibling divs after label divs
-  // Link row has an <a> tag but no data-aue-prop
+  // Find link rows
   const allLinks = [...block.querySelectorAll('a')];
 
   const buttonWrapper = document.createElement('div');

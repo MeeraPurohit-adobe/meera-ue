@@ -9,6 +9,20 @@
   min-height: 300px;
 }
 
+/* Tag */
+.hero .hero-tag {
+  display: inline-block;
+  background-color: var(--orange-color);
+  color: var(--light-color);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
@@ -67,18 +81,6 @@
   border: 2px solid white;
   cursor: pointer;
 }
-
-/* Hover states 
-.hero .hero-buttons a:hover,
-.hero .hero-buttons a.primary:hover {
-  background-color: transparent;
-  color: white;
-} */
-
-/* .hero .hero-buttons a.secondary:hover {
-  background-color: white;
-  color: black;
-} */
 
 @media (width >= 900px) {
   .hero {
