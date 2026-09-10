@@ -447,10 +447,6 @@ main .section.highlight {
   color: var(--light-color);
 }
 
-.section.baige-section a > button > .secondary {
-  
-}
-
 /* Mobile version of above classes */
 
 /* Mobile only (< 600px) */
