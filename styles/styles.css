@@ -440,11 +440,11 @@ main .section.highlight {
   border: none;
 }
 
-.section.w-circuit .columns-wrapper .button {
+.section.w-circuit .columns-wrapper p.button-wrapper {
   box-shadow: 3px 3px 0 var(--orange-color);
   border-color: var(--text-color);
-  background-color: black;
-  color: var(--light-color);
+  background-color: var(--light-color);
+  color: var(--black-color);
 }
 
 .section.baige-section p.button-wrapper {
