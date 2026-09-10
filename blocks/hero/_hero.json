@@ -57,9 +57,11 @@
           "value": ""
         },
         {
-          "component": "aem-content",
+          "component": "text",
+          "valueType": "string",
           "name": "buttonOneLink",
-          "label": "Button One Link"
+          "label": "Button One Link",
+          "value": ""
         },
         {
           "component": "text",
@@ -69,9 +71,11 @@
           "value": ""
         },
         {
-          "component": "aem-content",
+          "component": "text",
+          "valueType": "string",
           "name": "buttonTwoLink",
-          "label": "Button Two Link"
+          "label": "Button Two Link",
+          "value": ""
         }
       ]
     }
