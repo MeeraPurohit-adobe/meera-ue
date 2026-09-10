@@ -48,6 +48,30 @@
           "value": "",
           "label": "TextSmall",
           "valueType": "string"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "buttonOneLable",
+          "label": "Button One Label",
+          "value": ""
+        },
+        {
+          "component": "aem-content",
+          "name": "buttonOneLink",
+          "label": "Button One Link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "buttonTwoLabel",
+          "label": "Button Two Label",
+          "value": ""
+        },
+        {
+          "component": "aem-content",
+          "name": "buttonTwoLink",
+          "label": "Button Two Link"
         }
       ]
     }
