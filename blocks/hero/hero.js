@@ -1,34 +1,37 @@
 export default function decorate(block) {
-  // Get button fields
-  const buttonOneLabel = block.querySelector('[data-aue-prop="buttonOneLable"]');
-  const buttonOneLink = block.querySelector('[data-aue-prop="buttonOneLink"]');
-  const buttonTwoLabel = block.querySelector('[data-aue-prop="buttonTwoLabel"]');
-  const buttonTwoLink = block.querySelector('[data-aue-prop="buttonTwoLink"]');
+  const rows = [...block.children];
 
-  // Create button wrapper
+  // Find fields by data-aue-prop
+  const buttonOneLabel = block.querySelector('[data-aue-prop="buttonOneLable"]');
+  const buttonTwoLabel = block.querySelector('[data-aue-prop="buttonTwoLabel"]');
+
+  // Find link rows — they are the sibling divs after label divs
+  // Link row has an <a> tag but no data-aue-prop
+  const allLinks = [...block.querySelectorAll('a')];
+
   const buttonWrapper = document.createElement('div');
   buttonWrapper.classList.add('hero-buttons');
 
   // Button One
-  if (buttonOneLabel?.textContent.trim() && buttonOneLink?.textContent.trim()) {
+  if (buttonOneLabel && allLinks[0]) {
     const btn1 = document.createElement('a');
-    btn1.href = buttonOneLink.textContent.trim();
+    btn1.href = allLinks[0].href;
     btn1.textContent = buttonOneLabel.textContent.trim();
     btn1.classList.add('button', 'primary');
     buttonWrapper.appendChild(btn1);
-    buttonOneLabel.remove();
-    buttonOneLink.remove();
+    buttonOneLabel.closest('div').remove();
+    allLinks[0].closest('div').remove();
   }
 
   // Button Two
-  if (buttonTwoLabel?.textContent.trim() && buttonTwoLink?.textContent.trim()) {
+  if (buttonTwoLabel && allLinks[1]) {
     const btn2 = document.createElement('a');
-    btn2.href = buttonTwoLink.textContent.trim();
+    btn2.href = allLinks[1].href;
     btn2.textContent = buttonTwoLabel.textContent.trim();
     btn2.classList.add('button', 'secondary');
     buttonWrapper.appendChild(btn2);
-    buttonTwoLabel.remove();
-    buttonTwoLink.remove();
+    buttonTwoLabel.closest('div').remove();
+    allLinks[1].closest('div').remove();
   }
 
   if (buttonWrapper.children.length > 0) {
