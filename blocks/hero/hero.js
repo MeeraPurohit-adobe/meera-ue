@@ -28,7 +28,7 @@ export default function decorate(block) {
     const btn2 = document.createElement('a');
     btn2.href = allLinks[1].href;
     btn2.textContent = buttonTwoLabel.textContent.trim();
-    btn2.classList.add('button', 'secondary');
+    btn2.classList.add('button', 'primary');
     buttonWrapper.appendChild(btn2);
     buttonTwoLabel.closest('div').remove();
     allLinks[1].closest('div').remove();
