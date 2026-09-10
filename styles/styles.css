@@ -206,8 +206,9 @@ button.button:disabled {
 a.button.primary,
 button.button.primary {
   border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  box-shadow: 3px 3px;
 }
 
 a.button.primary:hover,
@@ -232,9 +233,10 @@ button.button.primary:disabled:focus-visible {
 
 a.button.secondary,
 button.button.secondary {
+  box-shadow: 3px 3px 0 var(--orange-color);
   border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
+  background-color: black;
+  color: var(--light-color);
 }
 
 a.button.secondary:hover,
@@ -439,20 +441,6 @@ main .section.highlight {
 }
 
 .section.w-circuit.columns-wrapper.button {
-  box-shadow: 3px 3px 0 var(--orange-color);
-  border-color: var(--text-color);
-  background-color: black;
-  color: var(--light-color);
-}
-
-.section.baige-section a > button > .primary {
-  border-color: var(--text-color);
-  background-color: var(--orange-color);
-  color: var(--black-color);
-  box-shadow: 3px 3px;
-}
-
-.section.baige-section a > button > .primary {
   box-shadow: 3px 3px 0 var(--orange-color);
   border-color: var(--text-color);
   background-color: black;
