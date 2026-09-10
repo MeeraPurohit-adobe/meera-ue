@@ -434,6 +434,31 @@ main .section.highlight {
   border: 0px;
 }
 
+.section.w-circuit.columns-wrapper {
+  border: none;
+}
+
+.section.w-circuit.columns-wrapper.button {
+  box-shadow: 3px 3px 0 var(--orange-color);
+  border-color: var(--text-color);
+  background-color: black;
+  color: var(--light-color);
+}
+
+.section.baige-section a > button > .primary {
+  border-color: var(--text-color);
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  box-shadow: 3px 3px;
+}
+
+.section.baige-section a > button > .primary {
+  box-shadow: 3px 3px 0 var(--orange-color);
+  border-color: var(--text-color);
+  background-color: black;
+  color: var(--light-color);
+}
+
 /* Mobile version of above classes */
 
 /* Mobile only (< 600px) */
