@@ -61,6 +61,10 @@
             {
               "name": "planning",
               "value": "planning"
+            },
+            {
+              "name": "planning-cards",
+              "value": "planning-cards"
             }
           ]
         }

@@ -427,7 +427,7 @@ main .section.highlight {
   color: white;
 }
 
-.section.planning.cards > ul > li {
+.section.planning-cards > ul > li {
   background-color: var(--grey-color);
   color:white;
   justify-self: left;
