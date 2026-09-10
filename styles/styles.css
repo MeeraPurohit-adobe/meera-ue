@@ -417,6 +417,7 @@ main .section.highlight {
 .section.planning {
   background-color: var(--black-color);
   padding: 21px 100px;
+  border-bottom: 6px solid var(--orange-color);
 }
 
 .section.planning h1,
@@ -424,13 +425,13 @@ main .section.highlight {
 .section.planning h3,
 .section.planning p {
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
-.section.planning.cards {
+.section.planning.cards > ul > li {
   background-color: var(--grey-color);
   color:white;
+  justify-self: left;
+  border: 0px;
 }
 
 /* Mobile version of above classes */

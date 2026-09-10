@@ -18,3 +18,13 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.columns-wrapper {
+  border: 1px solid var(--grey-color);
+}
+
+footer .footer .columns-wrapper > div {
+  display: grid;
+  background-color: var(--black-color);
+  color: var(--light-color)
+}
