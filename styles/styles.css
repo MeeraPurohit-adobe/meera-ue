@@ -436,15 +436,24 @@ main .section.highlight {
   border: 0px;
 }
 
-.section.w-circuit.columns-wrapper {
+.section.w-circuit .columns-container .columns-wrapper {
   border: none;
 }
 
-.section.w-circuit.columns-wrapper.button {
+.section.w-circuit .columns-wrapper .button {
   box-shadow: 3px 3px 0 var(--orange-color);
   border-color: var(--text-color);
   background-color: black;
   color: var(--light-color);
+}
+
+.section.w-circuit p.button-wrapper {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.section.w-circuit .default-content-wrapper {
+  text-align: center;
 }
 
 /* Mobile version of above classes */

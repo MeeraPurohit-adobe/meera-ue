@@ -21,6 +21,7 @@ footer .footer p {
 
 .columns-wrapper {
   border-bottom: 1px solid var(--grey-color);
+  padding-bottom: 24px;
 }
 
 footer .footer .columns-wrapper > div {
