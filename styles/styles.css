@@ -446,7 +446,7 @@ main .section.highlight {
   border: 0px;
 }
 
-.section.w-circuit.columns-container.columns-wrapper {
+.section.w-circuit .columns-wrapper {
   border: none;
 }
 
