@@ -272,7 +272,7 @@ header nav .nav-tools {
 }
 
 
-header nav .nav-sections .default-content-wrapper .button-wrapper a.button.primary {
+header .nav-wrapper .default-content-wrapper a.button {
   border-color: var(--orange-color);
   background-color: var(--black-color);
   color: var(--light-color);
